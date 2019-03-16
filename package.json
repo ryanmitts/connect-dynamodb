@@ -1,8 +1,8 @@
 {
-  "name": "connect-dynamodb",
-  "description": "DynamoDB session store for Connect",
-  "version": "2.0.3",
-  "author": "Mike Carson <ca98am79@gmail.com> (http://ca98am79.com)",
+  "name": "diodehub-connect-dynamodb",
+  "description": "Forked DynamoDB session store for Connect",
+  "version": "1.0.0",
+  "author": "Ryan Mitts <ryanmitts@gmail.com> (https://diodehub.com)",
   "main": "./index.js",
   "scripts": {
     "test": "mocha"
@@ -20,10 +20,5 @@
   },
   "optionalDependencies": {
     "aws-sdk": "*"
-  },
-  "homepage": "https://github.com/ca98am79/connect-dynamodb",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ca98am79/connect-dynamodb.git"
   }
 }
